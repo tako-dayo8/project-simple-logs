@@ -1,0 +1,26 @@
+{
+    "name": "@tako-dayo8/project-simple-logs",
+    "version": "1.0.0",
+    "description": "This is a simple library that allows you to print colored text to the console.",
+    "main": "lib/index.js",
+    "type": "module",
+    "scripts": {
+        "build": "rimraf lib && tsc"
+    },
+    "author": "takoche",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/tako-dayo8/project-simple-logs.git"
+    },
+    "private": false,
+    "publishConfig": {
+        "access": "public",
+        "registry": "https://npm.pkg.github.com"
+    },
+    "devDependencies": {
+        "@types/node": "^20.12.4",
+        "rimraf": "^5.0.5",
+        "typescript": "^5.4.4"
+    }
+}
